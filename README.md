@@ -14,8 +14,8 @@ A four-page CodeIgniter 4 POS foundation for the TFA1 routing, controller, and v
 From the project folder:
 
 ```powershell
-cd "C:\Users\cedri\OneDrive\Desktop\Kirby TFA1"
-& "C:\xampp\php\php.exe" -d extension=intl -S 127.0.0.1:8080 -t public public/index.php
+cd path\to\TFA1
+php -d extension=intl -S 127.0.0.1:8080 -t public public/index.php
 ```
 
 Open these routes in a browser:
@@ -25,7 +25,7 @@ Open these routes in a browser:
 - http://127.0.0.1:8080/customers
 - http://127.0.0.1:8080/users
 
-If using a different PHP installation, run `composer install` first and use that PHP executable. The `intl` extension is required by CodeIgniter.
+If using XAMPP on Windows, replace `php` with your XAMPP PHP executable. Run `composer install` first when `vendor/` is not already present. The `intl` extension is required by CodeIgniter.
 
 ## Activity data
 
