@@ -36,14 +36,14 @@ The customer records are Jan Kirby, Jhan Kharby, Jolya Kirby, Jhun Khirby, and K
 This folder is the separate commission copy and has no personal `.git` history.
 
 - GitHub repository: [github.com/johnkirbytheitmaster/TFA1](https://github.com/johnkirbytheitmaster/TFA1)
-- Hosted application: [kirbypos.thsite.top](https://kirbypos.thsite.top/)
+- Hosted application: [kirbypos.infy.click](https://kirbypos.infy.click/)
 
-The current `.env` is configured for `https://kirbypos.thsite.top/`.
+The current `.env` is configured for `https://kirbypos.infy.click/`.
 
-## TinkerHost upload
+## Hosting upload
 
-1. Open the account's **Manage Files** page and enter the `htdocs` folder.
-2. Upload `TFA1-hosting-package-final.zip`.
+1. Open the domain's **Manage Files** page and enter `kirbypos.infy.click/htdocs`.
+2. Upload `KIRBY-POS-kirbypos-infy-click.zip`.
 3. Use the file manager's **Extract** or **Unzip** action.
 4. Make sure the extracted contents are directly inside `htdocs`, not inside a second nested folder.
 5. Keep the hidden `.htaccess` files and `.env` file.
@@ -56,4 +56,4 @@ The root `.htaccess` sends requests to CodeIgniter's `public` folder. The ZIP al
 - `app/Controllers/Pages.php` serves the landing and about pages.
 - `app/Controllers/Customers.php` and `app/Controllers/Users.php` provide temporary arrays.
 - `app/Views/` contains the shared layout and page views.
-- `TFA1-hosting-package-final.zip` contains the current project package.
+- `KIRBY-POS-kirbypos-infy-click.zip` contains the current project package.
