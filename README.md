@@ -36,9 +36,9 @@ The customer records are Jan Kirby, Jhan Kharby, Jolya Kirby, Jhun Khirby, and K
 This folder is the separate commission copy and has no personal `.git` history.
 
 - GitHub repository: [github.com/johnkirbytheitmaster/TFA1](https://github.com/johnkirbytheitmaster/TFA1)
-- Hosted application: [tfa1.page.gd](https://tfa1.page.gd/)
+- Hosted application: [kirbypos.thsite.top](https://kirbypos.thsite.top/)
 
-The current `.env` is configured for the existing hosted URL and can be changed for a new host.
+The current `.env` is configured for `https://kirbypos.thsite.top/`.
 
 ## Structure
 

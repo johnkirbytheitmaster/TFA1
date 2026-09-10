@@ -24,3 +24,5 @@ The commission version uses a simple `KIRBY POS` wordmark, a soft slate navy bas
 This is the separate commission copy. It does not contain the personal project's `.git` directory or personal Git history.
 
 GitHub repository: https://github.com/johnkirbytheitmaster/TFA1
+
+Hosted application: https://kirbypos.thsite.top/
