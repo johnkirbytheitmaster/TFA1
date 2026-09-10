@@ -40,6 +40,16 @@ This folder is the separate commission copy and has no personal `.git` history.
 
 The current `.env` is configured for `https://kirbypos.thsite.top/`.
 
+## TinkerHost upload
+
+1. Open the account's **Manage Files** page and enter the `htdocs` folder.
+2. Upload `TFA1-hosting-package-final.zip`.
+3. Use the file manager's **Extract** or **Unzip** action.
+4. Make sure the extracted contents are directly inside `htdocs`, not inside a second nested folder.
+5. Keep the hidden `.htaccess` files and `.env` file.
+
+The root `.htaccess` sends requests to CodeIgniter's `public` folder. The ZIP already contains `vendor/`, so Composer is not needed on the host for this activity.
+
 ## Structure
 
 - `app/Config/Routes.php` maps the four required URLs.

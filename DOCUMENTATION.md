@@ -26,3 +26,7 @@ This is the separate commission copy. It does not contain the personal project's
 GitHub repository: https://github.com/johnkirbytheitmaster/TFA1
 
 Hosted application: https://kirbypos.thsite.top/
+
+## TinkerHost deployment
+
+The active TinkerHost file root for this account is `htdocs`. Upload the hosting ZIP there, extract it, and place the extracted project contents directly in `htdocs`. The root `.htaccess` forwards requests to the `public` folder, while the `.env` inside the ZIP contains the configured domain URL.
